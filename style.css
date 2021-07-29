@@ -96,3 +96,33 @@ p {
 .links:hover{
     background-color: lightblue;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article:hover{
+    color: azure;
+}
+#Author{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine
+}
+.line{
+    height: 6px;
+    background-color: cyan;
+    width: 70px;
+    margin: 8px auto;
+}
+
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
